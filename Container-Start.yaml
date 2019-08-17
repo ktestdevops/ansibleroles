@@ -15,7 +15,7 @@
 
   - name: Running the container
     docker_container:
-      image: ktestdevops/kproject:latest
+      image: ktestdevops/kproject:tagname
       name: webapp
       # path: docker
       state: started
