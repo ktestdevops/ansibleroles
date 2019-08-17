@@ -18,8 +18,9 @@
       image: ktestdevops/kproject:latest
       name: webapp
       # path: docker
-      state: started
       pull: yes
+      state: started
+      
       ports:
         - 9000:8080
 
