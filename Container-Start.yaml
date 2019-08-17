@@ -20,7 +20,6 @@
       # path: docker
       pull: yes
       state: started
-      
       ports:
         - 9000:8080
 
