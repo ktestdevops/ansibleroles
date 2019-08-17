@@ -19,7 +19,7 @@
       name: webapp
       # path: docker
       state: started
-      pull: yes
+      pull: no
       ports:
         - 9000:8080
 
